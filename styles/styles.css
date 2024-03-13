@@ -1,11 +1,14 @@
-nav {background-color: steelblue;
-    padding: 10px
+nav {
+    background-color: steelblue;
+    padding: 10px;
 }
+
 nav a {
     color: white; 
     display: block; 
-    padding: 220px;
+    padding: 10px; 
 }
+
 h1 {
     color: steelblue;
 }
@@ -23,24 +26,23 @@ main {
 }
 
 p {
-    padding: 0px;
+    padding: 0; 
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
+    text-align: center;
 }
 
 aside img {
     width: 200px;
     height: auto;
-
 }
-
 
 footer {
     margin-top: 15px;
