@@ -13,20 +13,8 @@ h1 {
     color: steelblue;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue; 
-    padding: 2px;
-    box-shadow: 0 0 30px #333;
-}
-
 main {
     max-width: 840px;
-}
-
-p {
-    padding: 0;
 }
 
 aside {
@@ -42,6 +30,18 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue; 
+    padding: 2px;
+    box-shadow: 0 0 30px #333;
+}
+
+p {
+    padding: 0;
 }
 
 footer {
