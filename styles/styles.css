@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -35,7 +36,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    
 }
 
 main img {
@@ -63,4 +63,9 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+.profile-img {
+    float: right;
+    margin-left: 20px; /* Add some margin to separate the paragraph */
 }
