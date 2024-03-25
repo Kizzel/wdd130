@@ -1,13 +1,16 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 nav {
     background-color: steelblue;
     padding: 10px;
 }
+
 
 nav a {
     color: white; 
@@ -15,15 +18,18 @@ nav a {
     padding: 10px;
 }
 
+
 h1 {
     color: steelblue;
     margin-bottom: 20px; 
 }
 
+
 main {
     max-width: 840px;
     margin: 0 auto; 
 }
+
 
 aside {
     width: 20rem;
@@ -36,11 +42,13 @@ aside {
     position: relative; 
 }
 
+
 aside img {
     width: 100%; 
     height: auto;
     margin-bottom: 10px; 
 }
+
 
 main img {
     width: 150px;
@@ -52,10 +60,12 @@ main img {
     margin-left: 20px; 
 }
 
+
 p {
     padding: 0;
     margin-bottom: 15px; 
 }
+
 
 footer {
     margin-top: 15px;
@@ -63,18 +73,22 @@ footer {
     text-align: center;
 }
 
+
 footer p {
     margin-bottom: 10px;
 }
+
 
 .sociallinks {
     margin-top: 20px;
 }
 
+
 .sociallinks a {
     text-decoration: none;
     margin-right: 10px;
 }
+
 
 .sociallinks img {
     width: 30px;
