@@ -15,15 +15,15 @@
 h1, h2, h3, h4, h5, h6,
 p {
     font-family: 'Your Selected Font', sans-serif;
-    color: var(--text-color, #eff0f1);
+    color: var(--text-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--primary-color, #152c7d);
+    color: var(--primary-color);
 }
 
 nav {
-    background-color: var(--secondary-color, #260c38); 
+    background-color: var(--secondary-color); 
     padding: 10px; 
 }
 
@@ -38,7 +38,7 @@ nav a {
 }
 
 .sociallinks img {
-    wwr\images\5296502_chat_facebook_message_messenger_messenger logo_icon.jpg.png
+    /* Add your social media icon styles here */
 }
 
 body {
