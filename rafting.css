@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Your+Selected+Font:weight1,weight2,weight3&display=swapwwr\images\google font home icon.jpg");
+
+:root {
+    --primary-color: #0066ff;
+    --secondary-color: #ff6600;
+    --text-color: #333; 
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Your Selected Font', sans-serif;
+    color: var(--primary-color); /* Use CSS variable for font color */
+}
+
+/* Paragraph Styles */
+p {
+    font-family: 'Your Selected Font', sans-serif;
+    color: var(--text-color); /* Use CSS variable for font color */
+}
+
+/* Navigation Styles */
+nav {
+    /* Add your navigation styles here */
+}
+
+nav a {
+    /* Add your navigation link styles here */
+}
+
+/* Social Media Icon Styles */
+.sociallinks a {
+    text-decoration: none;
+}
+
+.sociallinks img {
+    /* Add your social media icon styles here */
+}
+
+/* Limiting the width of the page */
+body {
+    max-width: 1200px; /* Adjust the value to limit the width of the page */
+    margin: 0 auto; /* Center the page horizontally */
+}
