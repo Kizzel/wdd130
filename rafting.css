@@ -6,45 +6,81 @@
     --text-color: #333; 
 }
 
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Heading Styles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Your Selected Font', sans-serif;
-    color: var(--primary-color); /* Use CSS variable for font color */
-}
-
-/* Paragraph Styles */
+h1, h2, h3, h4, h5, h6,
 p {
     font-family: 'Your Selected Font', sans-serif;
-    color: var(--text-color); /* Use CSS variable for font color */
+    color: var(text-color #eff0f1;);
 }
 
-/* Navigation Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(color #152c7d;);
+}
+
 nav {
-    /* Add your navigation styles here */
+    background-color: var(color #260c38;); 
+    padding: 10px; 
 }
 
 nav a {
-    /* Add your navigation link styles here */
+    color: white; 
+    text-decoration: none; 
+    margin-right: 10px; 
 }
 
-/* Social Media Icon Styles */
 .sociallinks a {
     text-decoration: none;
 }
 
 .sociallinks img {
-    /* Add your social media icon styles here */
+    wwr\images\5296502_chat_facebook_message_messenger_messenger logo_icon.jpg.png
 }
 
-/* Limiting the width of the page */
 body {
-    max-width: 1200px; /* Adjust the value to limit the width of the page */
-    margin: 0 auto; /* Center the page horizontally */
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.hero h1 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
+    z-index: 1; 
+}
+
+.hero article {
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+    width: 80%; 
+    color: white; 
+    z-index: 1; 
+}
+
+.hero article p {
+    float: right;
+    margin-left: 20px;
 }
