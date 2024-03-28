@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Your+Selected+Font:weight1,weight2,weight3&display=swapwwr\images\google font home icon.jpg");
+@import url("https://fonts.googleapis.com/css2?family=Your+Selected+Font:weight1,weight2,weight3&display=swap");
 
 :root {
     --primary-color: #0066ff;
@@ -15,15 +15,15 @@
 h1, h2, h3, h4, h5, h6,
 p {
     font-family: 'Your Selected Font', sans-serif;
-    color: var(text-color #eff0f1;);
+    color: var(--text-color, #eff0f1);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(color #152c7d;);
+    color: var(--primary-color, #152c7d);
 }
 
 nav {
-    background-color: var(color #260c38;); 
+    background-color: var(--secondary-color, #260c38); 
     padding: 10px; 
 }
 
@@ -45,7 +45,6 @@ body {
     max-width: 1200px; 
     margin: 0 auto; 
 }
-
 
 .hero {
     position: relative;
