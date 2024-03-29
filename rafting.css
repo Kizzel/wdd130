@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Your+Selected+Font:weight1,weight2,weight3&display=swap");
+header, main, footer {
+    margin: 0 auto;
+    padding: 20px; 
+}
 
 :root {
     --primary-color: #0066ff;
@@ -24,22 +27,55 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     background-color: var(--secondary-color); 
-    padding: 10px; 
+    padding: 10px;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
 }
 
 nav a {
     color: white; 
     text-decoration: none; 
-    margin-right: 10px; 
+    margin-right: 10px;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+nav a:focus {
+    outline: none;
+}
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="trips.html">Trips</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.linkedin.com/in/ezekiel-kufoalor-a7155b291/">LinkedIn</a> 
+    <a href="https://www.facebook.com/ezekiel-kufoalor">Facebook</a> 
+</nav>
+
+.sociallinks {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px;
 }
 
 .sociallinks a {
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .sociallinks img {
-    wwr\images\5296502_chat_facebook_message_messenger_messenger logo_icon.jpg.png
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
 }
+
 
 body {
     max-width: 1200px; 
