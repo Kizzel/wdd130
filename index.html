@@ -7,7 +7,6 @@
     <meta name="description" content="The rafting site plan includes the site purpose, the target audience, branding information, and a style guide for the course website project.">
     <meta name="author" content="Ezekiel Kufoalor">
     <link rel="stylesheet" href="styles/site-plan-rafting.css">
-
     <style>
         header, footer {
             max-width: 840px;
@@ -17,6 +16,12 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
         }
 
         nav {
@@ -31,16 +36,27 @@
             color: white; 
             display: block; 
             padding: 10px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #1e90ff;
         }
 
         h1 {
             color: steelblue;
             margin-bottom: 20px; 
+            text-align: center;
         }
 
         main {
             max-width: 840px;
             margin: 0 auto; 
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         aside {
@@ -52,6 +68,7 @@
             color: #333;
             text-align: center;
             position: relative; 
+            border-radius: 8px;
         }
 
         aside img {
@@ -79,6 +96,10 @@
             margin-top: 15px;
             border-top: 1px solid #000;
             text-align: center;
+            padding: 20px;
+            background-color: steelblue;
+            color: white;
+            border-radius: 8px;
         }
 
         footer p {
@@ -87,15 +108,23 @@
 
         .sociallinks {
             margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .sociallinks a {
             text-decoration: none;
             margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .sociallinks a:hover {
+            transform: scale(1.2);
         }
 
         .sociallinks img {
-            width: 30px;
+            width: 40px;
             height: auto;
             border-radius: 50%;
         }
@@ -103,7 +132,7 @@
 </head>
 <body>
     <header>
-        <img src="wwr/images/browser.png" alt="Company Logo">
+        <img src="wwr\images\browser.png" alt="Company Logo">
         <h1>Rafting Site Plan</h1>
         <div>Ezekiel Kufoalor</div>
         <nav>
@@ -114,6 +143,7 @@
         </nav>
     </header>
     <main>
+        <img src="wwr\images\rafting image 2.jpg" alt="Rafting Adventure" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
         <h2>Overview</h2>
         <h3>Purpose</h3>
         <p>The purpose of the rafting site plan is to establish an online presence for the rafting industry, serving multiple objectives:</p>
@@ -150,7 +180,6 @@
     </main>
     
     <footer>
-        <p>&copy; <span id="year">2024</span> River Rush Rafting Co. | Ezekiel K. D Kufoalor</p>
         <nav class="sociallinks">
             <a href="https://facebook.com">
                 <img src="wwr\images\5296499_fb_facebook_facebook logo_icon.jpg.png" alt="Facebook">
@@ -162,7 +191,7 @@
                 <img src="wwr/images/6929237_instagram_icon.png" alt="Instagram">
             </a>
         </nav>
-        <p>&copy; 2024 🌴 Ezekiel K. D Kufoalor 🌴 River Rush Rafting Co. 🌴 ™</p>
-    </footer>  
+        <p>&copy; <span id="year">2024</span> 🌊 Rafting Site Document 🌊 Ezekiel K. D Kufoalor 🌊 WDD 130 ™</p>
+    </footer> 
 </body>
 </html>

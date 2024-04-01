@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Site Plan | Ezekiel Kufoalor</title>
+    <meta name="description" content="The rafting site plan includes the site purpose, the target audience, branding information, and a style guide for the course website project.">
+    <meta name="author" content="Ezekiel Kufoalor">
+    <link rel="stylesheet" href="styles/site-plan-rafting.css">
+</head>
+<body>
+    <header>
+        <h1>Rafting Site Plan</h1>
+        <div>Ezekiel Kufoalor</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Events</a>
+            <a href="#">Contact Us</a>  
+        </nav>
+    </header>  
+    <main>
+        <h2>Overview</h2>
+        <h3>Purpose</h3>
+        <p>Establishing an online presence for the rafting industry serves multiple purposes:</p>
+        <ul>
+            <li><strong>Enhanced Visibility:</strong> By having a website, businesses become more visible to potential customers searching for rafting services online.</li>
+            <li><strong>Marketing and Promotion:</strong> Websites serve as platforms to effectively market rafting services, packages, and special offers to attract new customers.</li>
+            <li><strong>Customer Engagement:</strong> Engage with both existing and potential customers by providing valuable information, updates, FAQs, and customer reviews on the website.</li>
+            <li><strong>Streamlined Booking:</strong> Incorporate booking and reservation functionalities into the website to simplify the process for customers to book their trips and adventures online.</li>
+            <li><strong>Brand Building:</strong> Utilize online presence to build and strengthen brand identity through consistent branding, messaging, and storytelling.</li>
+            <li><strong>Accessibility:</strong> Ensure businesses are accessible 24/7 to customers worldwide, allowing them to learn about offerings and make inquiries at their convenience.</li>
+        </ul>
+        <h3>Audience</h3>
+        <p>Our target audience for the rafting industry website consists of:</p>
+        <ul>
+            <li><strong>Adventure Enthusiasts:</strong> Individuals passionate about outdoor adventures, including rafting, kayaking, and other water sports.</li>
+            <li><strong>Nature Explorers:</strong> People seeking nature-based experiences and adventures, such as exploring rivers, canyons, and wilderness areas.</li>
+            <li><strong>Travel Enthusiasts:</strong> Travelers looking for unique and exciting travel experiences, including rafting trips and adventure vacations.</li>
+        </ul>
+        <h4>Scenario Questions:</h4>
+        <ol>
+            <li>
+                <p><strong>Scenario:</strong> A group of friends is planning a weekend getaway and wants to experience rafting. Who is our target audience?</p>
+                <p><strong>Answer:</strong> Our target audience includes groups of friends seeking adventure activities such as rafting for their weekend getaways.</p>
+            </li>
+            <li>
+                <p><strong>Scenario:</strong> A family is looking for a thrilling outdoor activity for their summer vacation. Who is our target audience?</p>
+                <p><strong>Answer:</strong> Our target audience includes families seeking thrilling outdoor activities such as rafting for their summer vacations.</p>
+            </li>
+            <li>
+                <p><strong>Scenario:</strong> A travel blogger is planning a series of adventure trips and is interested in featuring rafting experiences. Who is our target audience?</p>
+                <p><strong>Answer:</strong> Our target audience includes travel bloggers seeking adventure experiences such as rafting for their travel content.</p>
+            </li>
+        </ol>
+        <h2>Branding</h2>
+        <h3>Website Logo</h3> 
+        <img src="Logo Files/For Web/png/Color logo with background.png" alt="Rafting Site Logo">
+        <h2>Style Guide</h2>
+        <h3>Color Palette</h3>
+        <p>Insert color palette information here.</p>
+        <h3>Typography</h3>
+        <h4>Heading Example Font</h4>
+        <p>Insert heading font example here.</p>
+        <h4>Body Text Example Font</h4>
+        <p>Insert body text font example here.</p>
+        <h3>Navigation</h3>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Events</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <h2>Wireframes</h2>
+        <h3>Home Page Wireframe</h3>
+        <img src="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-home.png" alt="Home Page Wireframe Example Design" width="700">
+        <h3>About Us Page Wireframe</h3>
+        <img src="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-aboutus-update.png" alt="About Us Page Wireframe Design" width="700">
+    </main>
+    <footer>
+        <p>&copy; 2024 🌊 Rafting Site Document 🌊 Ezekiel K. D Kufoalor 🌊 WDD 130 ™</p>
+    </footer>
+</body>
+</html>
