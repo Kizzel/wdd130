@@ -47,7 +47,12 @@ main img {
 }
 
 p {
+    margin: 1rem;
     padding: 10px;
+}
+
+indent {
+    padding: 2rem;
 }
 
 aside {
