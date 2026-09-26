@@ -1,38 +1,60 @@
+/* 1. Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* 2. Page Layout - W04 Requirement */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/* 3. Navigation - Flexbox */
 nav {
-    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a4a6b;
     padding: 10px;
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
 
-body {
-    font-weight: 18px;
-
-    font-family: .roboto-<uniquifier > {
-        font-family: "Roboto", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" 100;
-    }
-}
-
+/* 4. Headings */
 h1 {
     color: darkblue;
+    border-bottom: 2px solid #0a4a6b;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 1rem;
+    padding: 10px;
+}
+
+/* 5. Grid Layout - W04 Requirement */
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20rem 1fr;
 }
 
 main {
+    grid-column: 2/3;
+    margin: 1rem;
     max-width: 640px;
 }
 
@@ -46,19 +68,13 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-p {
-    margin: 1rem;
-    padding: 10px;
-}
-
-indent {
-    padding: 2rem;
-}
-
+/* 6. Aside */
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -71,16 +87,21 @@ aside h2 {
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
-    /* optional styling so you can see it */
     background-color: rgba(255, 255, 255, 0.7);
     padding: 0.2rem;
 }
 
-/* Class Selectors */
+/* 7. Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid #000;
+    text-align: center;
 }
