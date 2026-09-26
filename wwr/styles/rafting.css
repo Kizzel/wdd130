@@ -21,12 +21,6 @@ body {
     color: var(--accent1-color);
 }
 
-/* Step 6: Limit width and center */
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
-
 /* Step 7: Headings */
 h1, h2 {
     font-family: var(--heading-font);
@@ -39,52 +33,165 @@ nav, p, section, article {
     padding: 8px;
 }
 
-/* Step 9: Remove underline from social links */
-.sociallinks a {
-    text-decoration: none;
+/* HEADER - Grid layout - W04 Requirement */
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 15px;
+    margin: 0;
 }
 
-/* STEP 5: HERO DIV STYLING */
+header img {
+    width: 100px;
+    height: auto;
+}
 
-/* 5.1 - Hero container relative */
+/* NAV - Flex layout - W04 Requirement */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 700;
+    display: block;
+}
+
+/* HERO - W03 + W04 */
 .hero {
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
-/* 5.2 - Hero image fills the div */
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-/* 5.3 - H1 overlay - centered on top */
 .hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     text-align: center;
     padding: 16px;
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent */
-    color: white; /* make sure it contrasts */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
-/* 5.4 - Article overlay - bottom part of hero */
 .hero article {
     position: absolute;
     bottom: 30px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 16px;
     border-radius: 8px;
 }
 
-/* 5.5 - Image inside article floats right */
 .hero article img {
     float: right;
     width: 125px;
     margin-left: 16px;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px gray;
+}
+
+/* HISTORY SECTION - W04 Grid */
+.history {
+    padding: 2rem;
+}
+
+.history h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* ADVENTURES SECTION - 5 images in a row */
+.adventures {
+    padding: 2rem;
+}
+
+.adventures h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.adventure-grid figure {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.adventure-grid figcaption {
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+/* FOOTER - Grid + Flex to the right */
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sociallinks img {
+    width: 35px;
+    height: auto;
 }
