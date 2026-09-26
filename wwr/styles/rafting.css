@@ -1,0 +1,90 @@
+/* Step 3: CSS Variables - choose your colors */
+:root {
+    --primary-color: #0a4a6b; /* dark blue */
+    --secondary-color: #f4a261; /* accent orange */
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Merriweather", serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+/* Step 4: Reset box model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Step 5: Body styling */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* Step 6: Limit width and center */
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* Step 7: Headings */
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Step 8: Basic spacing */
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Step 9: Remove underline from social links */
+.sociallinks a {
+    text-decoration: none;
+}
+
+/* STEP 5: HERO DIV STYLING */
+
+/* 5.1 - Hero container relative */
+.hero {
+    position: relative;
+}
+
+/* 5.2 - Hero image fills the div */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 5.3 - H1 overlay - centered on top */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent */
+    color: white; /* make sure it contrasts */
+}
+
+/* 5.4 - Article overlay - bottom part of hero */
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* 5.5 - Image inside article floats right */
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px gray;
+}
