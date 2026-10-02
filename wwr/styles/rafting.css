@@ -1,7 +1,9 @@
 /* Step 3: CSS Variables - choose your colors */
 :root {
-    --primary-color: #0a4a6b; /* dark blue */
-    --secondary-color: #f4a261; /* accent orange */
+    --primary-color: #0a4a6b;
+    /* dark blue */
+    --secondary-color: #f4a261;
+    /* accent orange */
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Merriweather", serif;
@@ -22,13 +24,17 @@ body {
 }
 
 /* Step 7: Headings */
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 /* Step 8: Basic spacing */
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -194,4 +200,67 @@ footer p {
 .sociallinks img {
     width: 35px;
     height: auto;
+}
+
+/* Contact Page */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.map iframe {
+    border: 0;
+    width: 100%;
+}
+
+.employees {
+    text-align: center;
+    padding: 1rem;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.employee-gallery figure {
+    width: 200px;
+}
+
+.employee-gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact-form-section {
+    width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-item {
+    display: grid;
+    margin: 1rem 0;
+}
+
+.contact-form-section button {
+    background-color: #1e4d7a;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.contact-form-section button:hover {
+    background-color: #2a7d2a;
 }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting Company</title>
+    <meta name="description"
+      content="Contact White Water Rafting Company for inquiries, reservations, and suggestions. Find our address, phone, email, and map.">
+    <meta name="author" content="Ezekiel Kufoalor">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <!-- HEADER - Grid -->
+    <header>
+        <img src="images/z-rapids-trees - logo.jpg" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. Company Info + Map - REQUIRED -->
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <div class="contact-grid">
+                <div>
+                    <h2>White Water Rafting Company</h2>
+                    <p><strong>Address:</strong> 123 Rapids Way, Takoradi, Ghana</p>
+                    <p><strong>Phone:</strong> +233 24 123 4567</p>
+                    <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+
+                    <div class="map">
+                        <!-- Get your embed from Google Maps > Share > Embed a map -->
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.123456!2d-1.760000!3d4.900000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNTQnMDAuMCJOIDHCsDQ1JzM2LjAiVw!5e0!3m2!1sen!2sgh!4v1234567890"
+                          width="400" height="300" allowfullscreen="" loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Employee profiles - REQUIRED (3 employees) -->
+        <section class="employees">
+            <h2>We Are Here To Serve You</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/resized_Emily - Tour Guide.jpg" alt="Emily - Tour Guide">
+                    <figcaption>Emily Johnson - Lead Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/resized_Michael - Safety Officer.jpg"
+                      alt="Michael - Safety Officer">
+                    <figcaption>【entity-Michael Smith¦canonical_name=Michael Smith】 - Safety Officer
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/resized_Sarah - Reservations Manager.jpg"
+                      alt="Sarah - Reservations Manager">
+                    <figcaption>Sarah Kufoalor - Reservations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- 3. Form - REQUIRED -->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form>
+                <div class="form-item">
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+
+                <div class="form-item">
+                    <p>Purpose of Message:</p>
+                    <label><input type="radio" id="purpose-general" name="purpose"
+                          value="General Inquiry" required> General Inquiry</label>
+                    <label><input type="radio" id="purpose-reservation" name="purpose"
+                          value="Reservation Question"> Reservation Question</label>
+                    <label><input type="radio" id="purpose-website" name="purpose"
+                          value="Website Suggestion"> Website Suggestion</label>
+                </div>
+
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div class="form-item">
+                    <label for="newsletter"><input type="checkbox" id="newsletter"
+                          name="newsletter">
+                        Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <!-- FOOTER - Grid -->
+    <footer>
+        <p>&copy;2026 | Dry Oar Rafting Co. | Ezekiel Kufoalor</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook-square.svg" alt="Facebook" 128"
+                  height="128"></a>
+            <a href="https://twitter.com"><img src="images/x-bw.svg" alt="Twitter" 128"
+                  height="128"></a>
+            <a href="https://instagram.com"><img src="images/instagram-square.svg" alt="Instagram"
+                  128" height="128"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
